@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { Drink, Eat, Buy, Music, Work } from "../../assets";
 // Import Swiper styles
 import "swiper/css";
 
@@ -12,7 +12,7 @@ export const ToDo = () => {
 				<div className="md:flex hidden flex-row gap-4 mb-8">
 					<div className="max-w-[220px]">
 						<div className="py-4">
-							<img src={"/src/assets/home/drink.png"} className="h-[60px]" />
+							<img src={Drink} className="h-[60px]" />
 						</div>
 						<div className="text-[20px] font-bold">Drink</div>
 						<div className="py-4">The Bayside Food & Wine festival will have plenty of entertainment to go around.</div>
@@ -20,7 +20,7 @@ export const ToDo = () => {
 					</div>
 					<div className="max-w-[220px]">
 						<div className="py-4">
-							<img src={"/src/assets/home/eat.png"} className="h-[60px]" />
+							<img src={Eat} className="h-[60px]" />
 						</div>
 						<div className="text-[20px] font-bold">Eat</div>
 						<div className="py-4">The Bayside Food & Wine festival will have plenty of entertainment to go around.</div>
@@ -28,7 +28,7 @@ export const ToDo = () => {
 					</div>
 					<div className="max-w-[220px]">
 						<div className="py-4">
-							<img src={"/src/assets/home/buy.png"} className="h-[60px]" />
+							<img src={Buy} className="h-[60px]" />
 						</div>
 						<div className="text-[20px] font-bold">Buy</div>
 						<div className="py-4">The Bayside Food & Wine festival will have plenty of entertainment to go around.</div>
@@ -36,7 +36,7 @@ export const ToDo = () => {
 					</div>
 					<div className="max-w-[220px]">
 						<div className="py-4">
-							<img src={"/src/assets/home/music.png"} className="h-[60px]" />
+							<img src={Music} className="h-[60px]" />
 						</div>
 						<div className="text-[20px] font-bold">Live music</div>
 						<div className="py-4">The Bayside Food & Wine festival will have plenty of entertainment to go around.</div>
@@ -44,7 +44,7 @@ export const ToDo = () => {
 					</div>
 					<div className="max-w-[220px]">
 						<div className="py-4">
-							<img src={"/src/assets/home/work.png"} className="h-[60px]" />
+							<img src={Work} className="h-[60px]" />
 						</div>
 						<div className="text-[20px] font-bold">Workshops</div>
 						<div className="py-4">The Bayside Food & Wine festival will have plenty of entertainment to go around.</div>
